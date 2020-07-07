@@ -1,0 +1,1 @@
+export const SEARCH_API = 'https://api.github.com/users';
