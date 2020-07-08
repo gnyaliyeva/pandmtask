@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 import Axios from 'axios';
 import { SEARCH_API } from './utils';
@@ -61,7 +60,7 @@ export const Detail = ({ match }) => {
 
   useEffect(() => {
     handleDetail()
-  }, [])
+  }, [handleDetail])
 
 
   return (
